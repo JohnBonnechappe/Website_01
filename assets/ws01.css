@@ -1,11 +1,11 @@
- .img1 {
+.img1 {
             height:auto;
             width:200px;
             max-width:100%;
             border-radius:8px;
             display:left;
         }
-        .img2 {
+.img2 {
             height:auto;
             width:200px;
             max-width:100%;
