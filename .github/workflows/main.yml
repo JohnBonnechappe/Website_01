@@ -32,7 +32,7 @@ jobs:
 
       - name: save data
         run: |
-          echo "Ordered=$media_type" >> order.out
+          echo "Ordered=${{inputs.media_type}}" >> order.out
           ls -l
 
       - name: push to github
