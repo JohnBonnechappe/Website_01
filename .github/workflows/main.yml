@@ -11,18 +11,19 @@ on:
       paths: ['**.TXT']
 
 jobs:
-  timeout-minutes: 3
-  runs-on: ubuntu-latest
+  save_website_data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    
+  steps:
+  - uses: actions/checkout@v4
+    timeout-minutes: 3
 
-steps:
-- uses: actions/checkout@v4
-  timeout-minutes: 3
+  - name: init
+    run: |
+      echo "saving data"
 
--name: init
- run: |
-    echo "saving data"
-
--name: cleanup
-  run: |
-     echo "Job done"
+  - name: cleanup
+    run: |
+      echo "Job done"
 
