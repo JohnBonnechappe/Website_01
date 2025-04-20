@@ -6,12 +6,14 @@
 </head>
     <script type="text/javascript">
         function fnTest(){
-            let a1=getElementById("tname").innerHTML.value + " for Testing";
+            let a1=getElementById("tname").innerHTML.value;
+       //         a1 += " for Testing";
             document.getElementById("div3").innerHTML=a1;
      //       console.log("Hi WOrld");
         };
 
        function fnTrigger(){
+            console.log("Hi WOrld");
      //       const octokit = new Octokit({auth:'aaa'});
      //       const {
       //          data:{ login },
