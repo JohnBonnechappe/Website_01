@@ -37,8 +37,8 @@ jobs:
 
       - name: push to github
         run: |
-           git status
-          #git add order.out
+          git add order.out
+          git status
           #git commit -m "From website"
           #git push
 
