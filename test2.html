@@ -6,6 +6,8 @@
 </head>
     <script type="text/javascript">
         function fnTest(){document.getElementById("div3").innerHTML="Trigger Sent";}
+
+        function fnTrigger(){};
     </script>
 <Body>
     <h2>Test Github page 2</h2>
@@ -16,8 +18,10 @@
          <form action="" method="">
                   <label for="wfname">Name of Workflow</label><br>
                   <input type="text" id="wfname" name="wfname"></input>
-                  <input type="button" value="trigger workflow" onclick="fnTest()"></input>
+                  <input type="button" value="trigger workflow" onclick="fnTrigger()"></input>
+                  <input type="button" value="test" onclick="fnTest()"></input>
          </form>
+    <br><br>
  </div>
 <div id="div3">
 </div> 
