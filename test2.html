@@ -9,17 +9,17 @@
             var a1=document.getElementById("tname").value;
                 a1 += " for Testing";
            document.getElementById("div3").innerHTML=a1;
-           alert("Hi ",a1);
+           alert(a1);
         };
 
        function fnTrigger(){
-              alert("Hi Trigger1");
               var a1=document.getElementById("tname").value;
-     //       const octokit = new Octokit({auth:'aaa'});
-     //       const {
-      //          data:{ login },
-       //     } = await octokit.rest.users.getAuthenticated();
-       //      alert(login);
+              alert(a1);
+            const octokit = new Octokit({auth:'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'});
+            const {
+                data:{ login },
+            } = await octokit.rest.users.getAuthenticated();
+             alert(login);
              document.getElementById("div3").innerHTML="Trigger Sent";
         };
     </script>
