@@ -1,0 +1,28 @@
+#
+# FOr website based on Github Pages
+#
+name: Save data from website
+
+run-name: Save data
+
+on:
+  push:
+      branches: [main]
+      paths: ['**.TXT']
+
+jobs:
+  timeout-minutes: 3
+  runs-on: ubuntu-latest
+
+steps:
+- uses: actions/checkout@v4
+  timeout-minutes: 3
+
+-name: init
+ run: |
+    echo "saving data"
+
+-name: cleanup
+  run: |
+     echo "Job done"
+
