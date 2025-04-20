@@ -7,15 +7,15 @@
     <script type="text/javascript">
         function fnTest(){
             document.getElementById("div3").innerHTML="Testing";
-            console.log("Hi WOrld");
+        //    console.log("Hi WOrld");
         };
 
-        function fnTrigger(){
-            const octokit = new Octokit({auth:'aaa'});
-            const {
-                data:{ login },
-            } = await octokit.rest.users.getAuthenticated();
-            document.getElementById("div3").innerHTML="Trigger Sent";
+       function fnTrigger(){
+     //       const octokit = new Octokit({auth:'aaa'});
+     //       const {
+      //          data:{ login },
+       //     } = await octokit.rest.users.getAuthenticated();
+       //     document.getElementById("div3").innerHTML="Trigger Sent";
         };
     </script>
 <Body>
