@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/ws01.css">
 </head>
     <script type="text/javascript">
-        function fnTest(){document.getElementById("div1").innerHTML="Checked";}
+        function fnTest(){document.getElementById("div3").innerHTML="Trigger Sent";}
     </script>
 <Body>
     <h2>Test Github page 2</h2>
@@ -13,13 +13,14 @@
 </div>
 <div id="div2">
      <br><br>
-         <form action="" method="" onclick="fnTest()">
+         <form action="" method="">
                   <label for="wfname">Name of Workflow</label><br>
                   <input type="text" id="wfname" name="wfname"></input>
                   <input type="button" value="trigger workflow" onclick="fnTest()"></input>
          </form>
  </div>
-    
+<div id="div3">
+</div> 
 </Body>
  
 </html>
