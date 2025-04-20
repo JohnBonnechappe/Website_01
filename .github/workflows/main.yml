@@ -8,7 +8,7 @@ run-name: Save data
 on:
   push:
       branches: [main]
-      paths: ['**.TXT']
+      paths: ['**.txt']
 
 jobs: 
     save_website_data:
