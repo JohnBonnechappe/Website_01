@@ -6,19 +6,21 @@
 </head>
     <script type="text/javascript">
         function fnTest(){
-            var a1=getElementById("tname").innerHTML.value;
-       //         a1 += " for Testing";
-            document.getElementById("div3").innerHTML=a1;
-     //       console.log("Hi WOrld");
+            var a1=document.getElementById("tname").innerHTML.value;
+                a1 += " for Testing";
+           document.getElementById("div3").innerHTML=a1;
+           alert("Hi ",a1);
         };
 
        function fnTrigger(){
-            alert("Hi WOrld");
+              alert("Hi Trigger1");
+              var a1=document.getElementById("tname").innerHTML.value;
      //       const octokit = new Octokit({auth:'aaa'});
      //       const {
       //          data:{ login },
        //     } = await octokit.rest.users.getAuthenticated();
-       //     document.getElementById("div3").innerHTML="Trigger Sent";
+       //      alert(login);
+             document.getElementById("div3").innerHTML="Trigger Sent";
         };
     </script>
 <Body>
