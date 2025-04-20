@@ -15,11 +15,11 @@
        function fnTrigger(){
               var a1=document.getElementById("tname").value;
               alert(a1);
-            const octokit = new Octokit({auth:'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'});
-            const {
-                data:{ login },
-            } = await octokit.rest.users.getAuthenticated();
-             alert(login);
+      //      const octokit = new Octokit({auth:'ghp'});
+      //      const {
+      //          data:{ login },
+      //      } = await octokit.rest.users.getAuthenticated();
+     //        alert(login);
              document.getElementById("div3").innerHTML="Trigger Sent";
         };
     </script>
