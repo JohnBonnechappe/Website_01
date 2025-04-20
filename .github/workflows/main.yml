@@ -37,6 +37,8 @@ jobs:
 
       - name: push to github
         run: |
+          git config user.name "John Bonnechappe"
+          git config user.email "BJohnR01@gmail.com"
           git add order.out
           git commit -m "From website"
            git status
