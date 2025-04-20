@@ -35,6 +35,13 @@ jobs:
           echo "Ordered=$media_type" >> order.out
           ls -l
 
+      - name: push to github
+        run: |
+           git status
+          #git add order.out
+          #git commit -m "From website"
+          #git push
+
       - name: cleanup
         run: |
           echo "Job done"
