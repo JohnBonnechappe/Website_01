@@ -4,15 +4,21 @@
     <title>Test Github website page </title>
     <link rel="stylesheet" type="text/css" href="./assets/ws01.css">
 </head>
+    <script type=javascript>
+        function fnTest(){getElementById("div1").innerHTML="Checked";}
+    </script>
 <Body>
     <h2>Test Github page 2</h2>
-
+<div id=div1>
+</div>
+<div id=div2>
      <br><br>
-         <form action="" method="">
+         <form action="" method="" onclick=>
                   <label for="wfname">Name of Workflow</label><br>
                   <input type="text" id="wfname" name="wfname"></input>
-                  <input type="submit" value="trigger workflow"></input>
+                  <input type="button" value="trigger workflow"></input>
          </form>
+ </div>
     
 </Body>
  
