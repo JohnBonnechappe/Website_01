@@ -13,7 +13,7 @@
             display:left;
         }
 .bg_tapes {
-            background-image:url('./assets/TapeDrives_01.jpg');
+            background-image:url('TapeDrives_01.jpg');
             background-repeat:no-repeat;
             background-attachment:fixed;
             background-size:cover;
