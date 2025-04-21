@@ -14,13 +14,14 @@
     </script>
     
     <script>
-        import { Octokit } from "https://esm.sh/@octokit/core@4.2.2";
+      //  import { Octokit } from "https://esm.sh/@octokit/core@4.2.2";
+         import { Octokit } from "octokit";
      //   import React from "https://esm.sh/react";
             
         function fnTrigger(){
-          //    const { Octokit } = require("@octokit/app");
               var a1=document.getElementById("tname").value;
               alert(a1);
+              alert(Octokit.VERSION);
          //     const octokit = new Octokit({auth:'ghp'});
               alert("at 1");
       //      const {
