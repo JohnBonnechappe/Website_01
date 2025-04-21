@@ -11,8 +11,12 @@
            document.getElementById("div3").innerHTML=a1;
            alert(a1);
         };
-
-       function fnTrigger(){
+    </script>
+    
+    <script>
+        import { Octokit, App} from "https://esm.sh/octokit";
+            
+        function fnTrigger(){
               var a1=document.getElementById("tname").value;
               alert(a1);
               const octokit = new Octokit({auth:'ghp'});
@@ -25,7 +29,7 @@
         };
     </script>
 <Body>
-    <h2>Test Github page 2.4</h2>
+    <h2>Test Github page 2.5</h2>
 <div id="div1">
 </div>
 <div id="div2">
