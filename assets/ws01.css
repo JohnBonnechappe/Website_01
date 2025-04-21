@@ -12,3 +12,9 @@
             border-radius:8px;
             display:left;
         }
+.bp_tapes {
+            background-image:url('./assets/TapeDrives_01.jpg');
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-size:cover;
+}
