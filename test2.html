@@ -15,13 +15,12 @@
     
     <script type="module">
       //  import { Octokit } from "https://esm.sh/@octokit/core@4.2.2";
-         import { Octokit } from "octokit";
-     //   import React from "https://esm.sh/react";
+         import { Octokit } from "@octokit/rest";
             
-        function fnTrigger(){
+         function fnTrigger(){
               var a1=document.getElementById("tname").value;
               alert(a1);
-              alert(Octokit.VERSION);
+              alert(Object.keys(Octokit));
          //     const octokit = new Octokit({auth:'ghp'});
               alert("at 1");
       //      const {
